@@ -306,7 +306,7 @@ footer ul li a:hover {
         position: relative;
         width: 4.5vw;
         height: 4.5vh;
-        left: 28vw;
+        left: 30vw;
         bottom: 8vh;
         padding: 2px;
     }
@@ -372,8 +372,8 @@ footer ul li a:hover {
         border-color: rgb(203, 81, 81);
         border-radius: 25px;
         position: absolute;
-        top: 35vh;
-        left: 5vw;
+        top: 38vh;
+        left: 4vw;
         box-shadow: 0 0 5px 0 black;
         justify-content: center;
         text-align: center;
@@ -406,8 +406,8 @@ footer ul li a:hover {
         width: 64%;
         height: 140vh;
         position: absolute;
-        top: 35vh;
-        right: 5vw;
+        top: 38vh;
+        right: 4vw;
         text-align: justify;
         padding: 25px;
         background-color: lightcyan;
