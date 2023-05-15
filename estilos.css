@@ -283,7 +283,7 @@ footer ul li a:hover {
         max-width: 1700px;
         height: 30vh;
         position: absolute;
-        top: 15vh;
+        top: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -306,8 +306,8 @@ footer ul li a:hover {
         position: relative;
         width: 4.5vw;
         height: 4.5vh;
-        left: 35vw;
-        bottom: 6vh;
+        left: 28vw;
+        bottom: 8vh;
         padding: 2px;
     }
     
@@ -372,7 +372,7 @@ footer ul li a:hover {
         border-color: rgb(203, 81, 81);
         border-radius: 25px;
         position: absolute;
-        top: 33vh;
+        top: 35vh;
         left: 5vw;
         box-shadow: 0 0 5px 0 black;
         justify-content: center;
@@ -406,7 +406,7 @@ footer ul li a:hover {
         width: 64%;
         height: 140vh;
         position: absolute;
-        top: 33vh;
+        top: 35vh;
         right: 5vw;
         text-align: justify;
         padding: 25px;
@@ -441,7 +441,7 @@ footer ul li a:hover {
         border-color: rgb(203, 81, 81);
         border-radius: 25px;
         position: absolute;
-        top: 102vh;
+        top: 110vh;
         left: 2vw;
         box-shadow: 0 0 5px 0 black;
         text-align: center;
@@ -478,7 +478,7 @@ footer ul li a:hover {
     
     .main2 {
         position: absolute;
-        top: 182vh;
+        top: 187vh;
         display: flex;
         width: 60%;
         height: 70%;
@@ -510,7 +510,7 @@ footer ul li a:hover {
         width: 100%;
         height: 25vh;
         position: absolute;
-        top: 256vh;
+        top: 260vh;
         display: flex;
         justify-content: center;
         align-items: center;
