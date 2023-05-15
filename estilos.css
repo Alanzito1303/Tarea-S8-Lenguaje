@@ -234,9 +234,9 @@ main p {
 }
 
 footer {
-    background-color: lightblue;
+    background-color: rgb(1, 41, 56);
     width: 100%;
-    height: 15vh;
+    height: 25vh;
     position: absolute;
     top: 256vh;
     display: flex;
@@ -254,6 +254,8 @@ footer p {
 
 footer ul {
     display: inline-flex;
+    position: relative;
+    bottom: 0vh;
 }
 
 footer ul li {
@@ -271,6 +273,936 @@ footer ul li a:hover {
     text-decoration:underline;
 }
 
+/* max-width:1440px */
+
+@media(max-width:1920px){
+    header {
+        background: url(https://www.gasteizhoy.com/wp-content/uploads/2017/05/morat-1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        max-width: 1700px;
+        height: 30vh;
+        position: absolute;
+        top: 15vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+    }
+    
+    /* Logo de Morat */
+    
+    header img {
+        width: 25vw;
+        position: absolute;
+    }
+    
+    /* Iconos de Fb, Ig y Yt */
+    
+    .bi {
+        position: relative;
+        width: 4.5vw;
+        height: 4.5vh;
+        left: 35vw;
+        bottom: 6vh;
+        padding: 2px;
+    }
+    
+    .bi-youtube {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-facebook {
+        color: white;
+    }
+    
+    .bi-instagram {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-twitter {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-tiktok {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    /* Iconos efecto hover  */
+    
+    .bi-youtube:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-facebook:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-instagram:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-twitter:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-tiktok:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    nav {
+        background: url(https://i.pinimg.com/736x/61/56/d7/6156d76b70860a34034dbb85f0463538.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 70vh;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        border-radius: 25px;
+        position: absolute;
+        top: 33vh;
+        left: 5vw;
+        box-shadow: 0 0 5px 0 black;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav p {
+        border-radius: 15px;
+        padding: 20px 0px;
+        margin: 25px;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        background-color:rgb(46, 82, 115);
+        opacity: 0.9;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav p:hover {
+        background-color:rgb(5, 114, 147);
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        opacity: 1;
+    }
+    
+    main {
+        width: 64%;
+        height: 140vh;
+        position: absolute;
+        top: 33vh;
+        right: 5vw;
+        text-align: justify;
+        padding: 25px;
+        background-color: lightcyan;
+        border-radius: 25px;
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+    }
+    
+    main img {
+        position: relative;
+        width: 35%;
+        float:right;
+        margin-left: 15px;
+        margin-bottom: 5px;
+        border-radius: 15px;
+        box-shadow: 0 0 5px 0 black;
+    }
+    
+    main p {
+        position: relative;
+        color:black;
+        font-size: 1.5vw;
+    }
+    
+    .formulario {
+        background-color: rgb(239, 187, 16);
+        width: 25%;
+        height: 75vh;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        border-radius: 25px;
+        position: absolute;
+        top: 102vh;
+        left: 2vw;
+        box-shadow: 0 0 5px 0 black;
+        text-align: center;
+        color: white;
+    }
+    
+    .formulario input{
+        padding: 10px 75px 10px 5px;
+        margin-bottom: 10px;
+        font-size: 1.2vw;
+        border: 3px solid;
+        border-color: rgb(25, 72, 116);
+    }
+    
+    .formulario #check {
+        position: absolute;
+        left: 1vw;
+        bottom: 17.8vh;
+    } 
+    
+    .formulario button {
+        padding: 2px 6px;
+        font-size: 1.5vw;
+    }
+    
+    .formulario button:hover {
+        box-shadow: 0 0 5px 0 black;
+    }
+    
+    .formulario a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .main2 {
+        position: absolute;
+        top: 182vh;
+        display: flex;
+        width: 60%;
+        height: 70%;
+        box-shadow: 0 0 15px 0 black;
+    }
+    
+    .main2 img{
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    
+    .main2 img:hover{
+        cursor: crosshair;
+        width: 20%;
+        opacity: 1;
+        filter: contrast(120%);
+        transition-duration: 1s;
+    }
+    
+    .main2 #grupo:hover{
+        width: 40%;
+    }
+    
+    footer {
+        background-color: rgb(1, 41, 56);
+        width: 100%;
+        height: 25vh;
+        position: absolute;
+        top: 256vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(237, 116, 116);
+    }
+    
+    footer p {
+        position: absolute;
+        bottom: 0vh;
+        left:87vw;
+        font-size: 1vw;
+    }
+    
+    footer ul {
+        display: inline-flex;
+        position: relative;
+        bottom: 0vh;
+    }
+    
+    footer ul li {
+        padding:0 25px;
+        list-style: none;
+    }
+    
+    footer ul li a {
+        color: rgb(237, 116, 116);
+        font-size: 1.5vw;
+        text-decoration: none;
+    }
+    
+    footer ul li a:hover {
+        text-decoration:underline;
+    }
+}
+
+/* max-width:1440px */
+
+@media(max-width:1440px){
+    header {
+        background: url(https://www.gasteizhoy.com/wp-content/uploads/2017/05/morat-1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        max-width: 1360px;
+        height: 22vh;
+        position: absolute;
+        top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+    }
+    
+    /* Logo de Morat */
+    
+    header img {
+        width: 15vw;
+        position: absolute;
+    }
+    
+    /* Iconos de Fb, Ig y Yt */
+    
+    .bi {
+        position: relative;
+        width: 4.5vw;
+        height: 4.5vh;
+        left: 35vw;
+        bottom: 6vh;
+        padding: 2px;
+    }
+    
+    .bi-youtube {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-facebook {
+        color: white;
+    }
+    
+    .bi-instagram {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-twitter {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-tiktok {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    /* Iconos efecto hover  */
+    
+    .bi-youtube:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-facebook:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-instagram:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-twitter:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-tiktok:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    nav {
+        background: url(https://i.pinimg.com/736x/61/56/d7/6156d76b70860a34034dbb85f0463538.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 70vh;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        border-radius: 25px;
+        position: absolute;
+        top: 33vh;
+        left: 5vw;
+        box-shadow: 0 0 5px 0 black;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav p {
+        border-radius: 15px;
+        padding: 20px 0px;
+        margin: 25px;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        background-color:rgb(46, 82, 115);
+        opacity: 0.9;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav p:hover {
+        background-color:rgb(5, 114, 147);
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        opacity: 1;
+    }
+    
+    main {
+        width: 64%;
+        height: 140vh;
+        position: absolute;
+        top: 33vh;
+        right: 5vw;
+        text-align: justify;
+        padding: 25px;
+        background-color: lightcyan;
+        border-radius: 25px;
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+    }
+    
+    main img {
+        position: relative;
+        width: 35%;
+        float:right;
+        margin-left: 15px;
+        margin-bottom: 5px;
+        border-radius: 15px;
+        box-shadow: 0 0 5px 0 black;
+    }
+    
+    main p {
+        position: relative;
+        color:black;
+        font-size: 1.5vw;
+    }
+    
+    .formulario {
+        background-color: rgb(239, 187, 16);
+        width: 25%;
+        height: 75vh;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        border-radius: 25px;
+        position: absolute;
+        top: 102vh;
+        left: 2vw;
+        box-shadow: 0 0 5px 0 black;
+        text-align: center;
+        color: white;
+    }
+    
+    .formulario input{
+        padding: 10px 75px 10px 5px;
+        margin-bottom: 10px;
+        font-size: 1.2vw;
+        border: 3px solid;
+        border-color: rgb(25, 72, 116);
+    }
+    
+    .formulario #check {
+        position: absolute;
+        left: 1vw;
+        bottom: 17.8vh;
+    } 
+    
+    .formulario button {
+        padding: 2px 6px;
+        font-size: 1.5vw;
+    }
+    
+    .formulario button:hover {
+        box-shadow: 0 0 5px 0 black;
+    }
+    
+    .formulario a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .main2 {
+        position: absolute;
+        top: 182vh;
+        display: flex;
+        width: 60%;
+        height: 70%;
+        box-shadow: 0 0 15px 0 black;
+    }
+    
+    .main2 img{
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    
+    .main2 img:hover{
+        cursor: crosshair;
+        width: 20%;
+        opacity: 1;
+        filter: contrast(120%);
+        transition-duration: 1s;
+    }
+    
+    .main2 #grupo:hover{
+        width: 40%;
+    }
+    
+    footer {
+        background-color: rgb(1, 41, 56);
+        width: 100%;
+        height: 25vh;
+        position: absolute;
+        top: 256vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(237, 116, 116);
+    }
+    
+    footer p {
+        position: absolute;
+        bottom: 0vh;
+        left:87vw;
+        font-size: 1vw;
+    }
+    
+    footer ul {
+        display: inline-flex;
+        position: relative;
+        bottom: 0vh;
+    }
+    
+    footer ul li {
+        padding:0 25px;
+        list-style: none;
+    }
+    
+    footer ul li a {
+        color: rgb(237, 116, 116);
+        font-size: 1.5vw;
+        text-decoration: none;
+    }
+    
+    footer ul li a:hover {
+        text-decoration:underline;
+    }
+}
+
+/* max-width:1367px */
+
+@media(max-width:1367px){
+    header {
+        background: url(https://www.gasteizhoy.com/wp-content/uploads/2017/05/morat-1.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 96%;
+        height: 22vh;
+        position: absolute;
+        top: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px;
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+    }
+    
+    /* Logo de Morat */
+    
+    header img {
+        width: 15vw;
+        position: absolute;
+    }
+    
+    /* Iconos de Fb, Ig y Yt */
+    
+    .bi {
+        position: relative;
+        width: 4.5vw;
+        height: 4.5vh;
+        left: 35vw;
+        bottom: 6vh;
+        padding: 2px;
+    }
+    
+    .bi-youtube {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-facebook {
+        color: white;
+    }
+    
+    .bi-instagram {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-twitter {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    .bi-tiktok {
+        color: white;
+        border-left: 2px solid white;
+    }
+    
+    /* Iconos efecto hover  */
+    
+    .bi-youtube:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-facebook:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-instagram:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-twitter:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    .bi-tiktok:hover {
+        color: rgb(5, 114, 147);
+        transition-duration: 0.6s;
+    }
+    
+    nav {
+        background: url(https://i.pinimg.com/736x/61/56/d7/6156d76b70860a34034dbb85f0463538.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 25%;
+        height: 70vh;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        border-radius: 25px;
+        position: absolute;
+        top: 28vh;
+        left: 2vw;
+        box-shadow: 0 0 5px 0 black;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    nav p {
+        border-radius: 15px;
+        padding: 20px 0px;
+        margin: 25px;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        background-color:rgb(46, 82, 115);
+        opacity: 0.9;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    nav p:hover {
+        background-color:rgb(5, 114, 147);
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        opacity: 1;
+    }
+    
+    main {
+        width: 64%;
+        height: 140vh;
+        position: absolute;
+        top: 28vh;
+        right: 2vw;
+        text-align: justify;
+        padding: 25px;
+        background-color: lightcyan;
+        border-radius: 25px;
+        box-shadow: 0 0 5px 0 black;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+    }
+    
+    main img {
+        position: relative;
+        width: 35%;
+        float:right;
+        margin-left: 15px;
+        margin-bottom: 5px;
+        border-radius: 15px;
+        box-shadow: 0 0 5px 0 black;
+    }
+    
+    main p {
+        position: relative;
+        color:black;
+        font-size: 1.5vw;
+    }
+    
+    .formulario {
+        background-color: rgb(239, 187, 16);
+        width: 25%;
+        height: 75vh;
+        border: 5px solid;
+        border-color: rgb(203, 81, 81);
+        border-radius: 25px;
+        position: absolute;
+        top: 102vh;
+        left: 2vw;
+        box-shadow: 0 0 5px 0 black;
+        text-align: center;
+        color: white;
+    }
+    
+    .formulario input{
+        padding: 10px 75px 10px 5px;
+        margin-bottom: 10px;
+        font-size: 1.2vw;
+        border: 3px solid;
+        border-color: rgb(25, 72, 116);
+    }
+    
+    .formulario #check {
+        position: absolute;
+        left: 1vw;
+        bottom: 17.8vh;
+    } 
+    
+    .formulario button {
+        padding: 2px 6px;
+        font-size: 1.5vw;
+    }
+    
+    .formulario button:hover {
+        box-shadow: 0 0 5px 0 black;
+    }
+    
+    .formulario a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .main2 {
+        position: absolute;
+        top: 182vh;
+        display: flex;
+        width: 60%;
+        height: 70%;
+        box-shadow: 0 0 15px 0 black;
+    }
+    
+    .main2 img{
+        width: 0;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+    
+    .main2 img:hover{
+        cursor: crosshair;
+        width: 20%;
+        opacity: 1;
+        filter: contrast(120%);
+        transition-duration: 1s;
+    }
+    
+    .main2 #grupo:hover{
+        width: 40%;
+    }
+    
+    footer {
+        background-color: rgb(1, 41, 56);
+        width: 100%;
+        height: 25vh;
+        position: absolute;
+        top: 256vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(237, 116, 116);
+    }
+    
+    footer p {
+        position: absolute;
+        bottom: 0vh;
+        left:87vw;
+        font-size: 1vw;
+    }
+    
+    footer ul {
+        display: inline-flex;
+        position: relative;
+        bottom: 0vh;
+    }
+    
+    footer ul li {
+        padding:0 25px;
+        list-style: none;
+    }
+    
+    footer ul li a {
+        color: rgb(237, 116, 116);
+        font-size: 1.5vw;
+        text-decoration: none;
+    }
+    
+    footer ul li a:hover {
+        text-decoration:underline;
+    }
+}
+
+/* max-width:1200px */
+
+@media (max-width:1100px) {
+
+    .bi {
+        left: 32vw;
+    }
+    nav {
+        top:140px;
+        position: relative;
+        height:60px;
+        border:none;
+        left:0;
+        border-radius:0px;
+        box-shadow:none;
+        background:none;
+        display:flex;
+        align-items:center;
+    }
+
+    nav p {
+        padding:15px;
+        margin:0px;
+        border:none;
+        border-radius:0;
+        background-color:rgb(203, 81, 81);
+    }
+
+    nav p:hover {
+        box-shadow:0 0 5px 0  black;
+        border: 0px;
+        border-color:none;
+        opacity: 1;
+    }
+
+    main {
+        position: absolute;
+        background-color: white;
+        border-color:none;
+        border:0px;
+        box-shadow:none;
+        border-radius:0px;
+        padding:20px 25px;
+        top:215px;
+        right: 15%;
+        max-height:862px;
+        max-width: 900px;
+    }
+
+    main p {
+        font-size: 90%;
+    }
+
+    .formulario {
+        top:950px;
+        width: 700px;
+        max-width:750px;
+        height:400px;
+        left:18%;
+        font-size:25px;
+        background-color: rgb(79, 123, 168);
+    }
+
+    .formulario input {
+        width:300px;
+        padding:15px 0 10px 5px;
+        font-size:18px;
+    }
+
+    .formulario #check {
+        left: -2px;
+        bottom:118px;
+    }
+
+    .formulario button {
+        font-size:22px;
+    }
+
+    .formulario p {
+        font-size:18px;
+    }
+
+    .main2 {
+        top:1450px;
+        width:90%;
+    }
+
+    .main2 #grupo:hover {
+        width: 60%;
+    }
+
+    footer {
+        top:1900px;
+    }
+
+    footer ul li {
+        padding: 0 10px;
+    }
+
+    footer p {
+        left:80vw;
+        font-size:10px;
+    }
+
+    footer ul li a {
+        font-size:13px;
+        position: relative;
+        right: 22px;
+    }
+}
+
 /* Max-width:833px*/
 
 @media (max-width:833px) {
@@ -284,7 +1216,6 @@ footer ul li a:hover {
         border:none;
         left:0;
         border-radius:0px;
-        width:100;
         box-shadow:none;
         background:none;
         display:flex;
@@ -386,43 +1317,54 @@ footer ul li a:hover {
 
 @media (max-width:720px) {
     header {
-        height:50px;
+        height:120px;
         border:none;
         border-radius:0px;
-        width:100%;
-        top:0px;
+        max-width:620px;
+        top:15px;
         box-shadow:none;
         background-size:100%;
     }
 
+    nav {
+        max-width: 400px;
+    }
+
     header img {
-        opacity: 1;
-        top:10vh;
-        width: 20vw;
+        opacity: 0;
     }
 
     .bi {
+        z-index: 1;
         left:0;
-        bottom: 0vh;
+        top: 165px;
         width:4vw;
         height:4vh;
-        padding:0 35px;
+        padding:0 25px;
+    }
+
+    .bi-facebook {
+        color: black;
     }
 
     .bi-youtube {
         border-left:none;
+        color: black;
     }
 
     .bi-instagram {
         border-left:none;
+        color: black;
     }
 
     .bi-twitter {
         border-left:none;
+        color: black;
     }
 
     .bi-tiktok {
         border-left:none;
+        color: black;
     }
 
     nav {
@@ -461,7 +1403,7 @@ footer ul li a:hover {
         box-shadow:none;
         border-radius:0px;
         padding:20px 25px;
-        top:215px;
+        top:255px;
         right:1%;
         width:88%;
         max-height:862px;
@@ -473,7 +1415,7 @@ footer ul li a:hover {
     }
 
     .formulario {
-        top:890px;
+        top:950px;
         width:70%;
         max-width:450px;
         height:550px;
@@ -501,7 +1443,7 @@ footer ul li a:hover {
     }
 
     .main2 {
-        top:1480px;
+        top:1570px;
         width:90%;
     }
 
@@ -510,7 +1452,7 @@ footer ul li a:hover {
     }
 
     footer {
-        top:1900px;
+        top:2000px;
     }
 
     footer ul li {
@@ -532,8 +1474,76 @@ footer ul li a:hover {
 /* Max-width:606 */
 
 @media (max-width:606px) {
+
+    header {
+        height:120px;
+        border:none;
+        border-radius:0px;
+        max-width:520px;
+        top:15px;
+        box-shadow:none;
+        background-size:100%;
+    }
+
+    nav {
+        max-width: 400px;
+    }
+
+    header img {
+        opacity: 0;
+    }
+
+    .bi {
+        z-index: 1;
+        left:0;
+        top: 165px;
+        width:4vw;
+        height:4vh;
+        padding:0 25px;
+    }
+
+    .bi-facebook {
+        color: black;
+    }
+
+    .bi-youtube {
+        border-left:none;
+        color: black;
+    }
+
+    .bi-instagram {
+        border-left:none;
+        color: black;
+    }
+
+    .bi-twitter {
+        border-left:none;
+        color: black;
+    }
+
+    .bi-tiktok {
+        border-left:none;
+        color: black;
+    }
+
+    main {
+        top: 250px;
+    }
+
     main p {
         font-size:13px;
+    }
+
+    .formulario {
+        top: 990px;
+    }
+
+    .main2 {
+        top: 1620px;
+    }
+
+    footer {
+        top: 2080px;
     }
 
     footer p {
@@ -554,12 +1564,17 @@ footer ul li a:hover {
 /* min-width:360 */
 
 @media (max-width:375px) {
+
+    body {
+        background-color: lightcyan;
+    }
+
     header {
         height:120px;
         border:none;
         border-radius:0px;
-        width:100%;
-        top:0px;
+        max-width:320px;
+        top:15px;
         box-shadow:none;
         background-size:100%;
     }
@@ -569,27 +1584,36 @@ footer ul li a:hover {
     }
 
     .bi {
+        z-index: 1;
         left:0;
-        bottom: 7vh;
+        top: 130px;
         width:5vw;
         height:5vh;
         padding:0 25px;
     }
 
+    .bi-facebook {
+        color: black;
+    }
+
     .bi-youtube {
         border-left:none;
+        color: black;
     }
 
     .bi-instagram {
         border-left:none;
+        color: black;
     }
 
     .bi-twitter {
         border-left:none;
+        color: black;
     }
 
     .bi-tiktok {
         border-left:none;
+        color: black;
     }
 
     nav {
@@ -623,7 +1647,7 @@ footer ul li a:hover {
 
     main {
         position: absolute;
-        background-color:white;
+        background-color:lightcyan;
         border-color:none;
         border:0px;
         box-shadow:none;
@@ -631,7 +1655,7 @@ footer ul li a:hover {
         padding:20px 25px;
         top:200px;
         right:-2%;
-        width:88%;
+        max-width:300px;
         max-height:862px;
         max-width: 620px;
     }
@@ -646,15 +1670,18 @@ footer ul li a:hover {
     }
 
     .formulario {
-        top:1280px;
+        top:1300px;
         width:80%;
         max-width:320px;
         height:520px;
         left:9.5%;
         font-size:25px;
+        background-color: rgb(42, 95, 156);
     }
 
     .formulario input {
+        position: relative;
+        bottom: 20px;
         padding:15px 0 10px 5px;
         font-size:18px;
         width: 230px;
@@ -662,15 +1689,19 @@ footer ul li a:hover {
 
     .formulario #check {
         left: -39px;
-        bottom:91px;
+        bottom:121px;
     }
 
     .formulario button {
         font-size:22px;
+        position: relative;
+        bottom: 30px;
     }
 
     .formulario p {
         font-size:18px;
+        position: relative;
+        bottom: 30px;
     }
 
     .main2 {
@@ -683,23 +1714,29 @@ footer ul li a:hover {
     }
 
     footer {
-        top:2300px;
-        width: 100%;
+        top:2350px;
+        width: 320px;
+        height: 180px;
+    }
+
+    footer ul {
+        display: inline-block;
+        position: relative;
+        bottom: 15px;
+        left: -30px;
     }
 
     footer ul li {
-        padding: 0 5px;
+        padding: 6px 5px;
     }
 
     footer p {
-        left:60vw;
-        font-size:10px;
+        left:50vw;
+        font-size:12px;
     }
 
     footer ul li a {
-        font-size:10px;
-        position: relative;
-        right: 22px;
+        font-size:15px;
     }
 }
 
