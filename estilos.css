@@ -451,7 +451,7 @@ footer ul li a:hover {
     .formulario h2 {
         font-size: 4vw;
         position: relative;
-        top: 3vh;
+        top: 1vh;
     }
 
     .formulario input{
@@ -466,14 +466,14 @@ footer ul li a:hover {
     
     .formulario #check {
         position: absolute;
-        left: 3vw;
+        left: 6vw;
         bottom: 25vh;
     } 
     
     .formulario p {
         font-size: 1.5vw;
         position: relative;
-        bottom: 150px;
+        bottom: 120px;
     }
 
     .formulario button {
