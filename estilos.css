@@ -450,6 +450,8 @@ footer ul li a:hover {
     
     .formulario h2 {
         font-size: 4vw;
+        position: relative;
+        top: 3vh;
     }
 
     .formulario input{
@@ -469,10 +471,14 @@ footer ul li a:hover {
     } 
     
     .formulario p {
-        font-size: 3vw;
+        font-size: 1.5vw;
+        position: relative;
+        bottom: 150px;
     }
 
     .formulario button {
+        position: relative;
+        bottom: 100px;
         padding: 2px 6px;
         font-size: 3.5vw;
     }
