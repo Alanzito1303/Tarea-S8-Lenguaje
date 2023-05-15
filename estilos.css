@@ -551,6 +551,156 @@ footer ul li a:hover {
     }
 }
 
+@media (max-width:375px) {
+    header {
+        height:120px;
+        border:none;
+        border-radius:0px;
+        width:100%;
+        top:0px;
+        box-shadow:none;
+        background-size:100%;
+    }
+
+    header img {
+        opacity: 0;
+    }
+
+    .bi {
+        left:0;
+        bottom: 7vh;
+        width:5vw;
+        height:5vh;
+        padding:0 25px;
+    }
+
+    .bi-youtube {
+        border-left:none;
+    }
+
+    .bi-instagram {
+        border-left:none;
+    }
+
+    .bi-twitter {
+        border-left:none;
+    }
+
+    .bi-tiktok {
+        border-left:none;
+    }
+
+    nav {
+        top:120px;
+        position: relative;
+        height:60px;
+        border:none;
+        left:0;
+        border-radius:0px;
+        box-shadow:none;
+        background:none;
+        display:flex;
+        align-items:center;
+    }
+
+    nav p {
+        padding:15px 10px;
+        margin:0px;
+        border:none;
+        border-radius:0;
+        background-color:rgb(203, 81, 81);
+        font-size: 12px;
+    }
+
+    nav p:hover {
+        box-shadow:0 0 5px 0  black;
+        border: 0px;
+        border-color:none;
+        opacity: 1;
+    }
+
+    main {
+        position: absolute;
+        background-color:white;
+        border-color:none;
+        border:0px;
+        box-shadow:none;
+        border-radius:0px;
+        padding:20px 25px;
+        top:200px;
+        right:-2%;
+        width:88%;
+        max-height:862px;
+        max-width: 620px;
+    }
+
+    main p {
+        font-size:14px;
+    }
+
+    main img {
+        width: 150px;
+        margin: 20px 5px 10px 15px;
+    }
+
+    .formulario {
+        top:1280px;
+        width:80%;
+        max-width:320px;
+        height:520px;
+        left:9.5%;
+        font-size:25px;
+    }
+
+    .formulario input {
+        padding:15px 0 10px 5px;
+        font-size:18px;
+        width: 230px;
+    }
+
+    .formulario #check {
+        left: -39px;
+        bottom:91px;
+    }
+
+    .formulario button {
+        font-size:22px;
+    }
+
+    .formulario p {
+        font-size:18px;
+    }
+
+    .main2 {
+        top:1880px;
+        width:90%;
+    }
+
+    .main2 #grupo:hover {
+        width: 60%;
+    }
+
+    footer {
+        top:2300px;
+        width: 100%;
+    }
+
+    footer ul li {
+        padding: 0 5px;
+    }
+
+    footer p {
+        left:60vw;
+        font-size:10px;
+    }
+
+    footer ul li a {
+        font-size:10px;
+        position: relative;
+        right: 22px;
+    }
+}
+
 /* Max-width:360px*/
 
 @media (max-width:360px) {
